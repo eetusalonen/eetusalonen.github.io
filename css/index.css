@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+    background-color: rgb(1, 5, 25) !important;
+    color: white !important;
+}
+
+
+
+
+.anim-typewriter2 {
+    animation: blinkTextCursor 600ms linear 0s infinite both;
+}
+
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+.line-1{
+    
+    width: fit-content;
+    margin: 0 0;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 3rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-bottom: 30vh;  
+}
+
+
+
+h1 {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.container {
+    margin-top: 40vh !important;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#ky {
+    width: 20vw;
+}
+
+#funzi-pic {
+    width: 15vw;
+}
+
+#yin-pic {
+    width: 10vw;
+}
+
+#yin {
+    margin-top:5rem;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2rem !important;
+}
+#footer {
+    text-align: center;
+}
